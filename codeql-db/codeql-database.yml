@@ -1,0 +1,13 @@
+---
+sourceLocationPrefix: C:\repos\CppMemoryLeak
+baselineLinesOfCode: 16
+unicodeNewlines: false
+columnKind: utf8
+primaryLanguage: cpp
+creationMetadata:
+  cliVersion: 2.23.0
+  creationTime: 2025-11-25T20:22:41.680429500Z
+buildMode: none
+overlayBaseDatabase: false
+overlayDatabase: false
+finalised: true
