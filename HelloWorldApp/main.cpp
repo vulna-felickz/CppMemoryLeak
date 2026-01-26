@@ -26,7 +26,7 @@ int main()
     // PR do it again
     // Try to use the corrupted buffer to trigger immediate crash
     std::cout << "If you see this, trying to access corrupted memory..." << std::endl;
-    std::cout << small_buffer[2000] << std::endl;  // Access far beyond bounds
+    std::cout << small_buffer[2001] << std::endl;  // Access far beyond bounds
     
     return 0;
 }
