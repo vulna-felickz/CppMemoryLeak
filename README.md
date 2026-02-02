@@ -13,5 +13,5 @@ codeql database analyze ./codeql-db --format=sarif-latest --output=./bmn-codeql.
 ```
 codeql database create --overwrite --language cpp --command "cl HelloWorldApp\main.cpp" ./codeql-db
 
-codeql database analyze ./codeql-db --format=sarif-latest --output=./bmn-codeql.sarif
+codeql database analyze ./codeql-db --format=sarif-latest --output=./traced-codeql.sarif
 ```
