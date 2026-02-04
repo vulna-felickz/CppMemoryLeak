@@ -6,6 +6,7 @@ int main()
     const char *message = "Hello";
     char password[32];
     char buffer[256];
+    char buffer2[256];
     
     // This will overflow - writing 256 bytes when message is only 6 bytes
     // It will write past buffer into password and beyond, corrupting the stack
